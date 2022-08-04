@@ -1,7 +1,7 @@
 const {ftoc, ctof} = require('./tempConversion')
 
 describe('ftoc', () => {
-  test('works', () => {
+  test.skip('works', () => {
     expect(ftoc(32)).toEqual(0);
   });
   test.skip('rounds to 1 decimal', () => {
